@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 def stage(){
   return stageProject{
-    project = 'fabric8-apps/nexus'
+    project = 'fabric8-apps/nexus-app'
     useGitTagForNextVersion = true
   }
 }
